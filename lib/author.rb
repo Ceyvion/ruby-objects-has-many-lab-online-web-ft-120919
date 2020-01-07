@@ -14,7 +14,7 @@ end
 
 
 def add_post(post)
-    song.artist = self
+    post.author = self
 end  
   
 def add_post_by_title(name)
