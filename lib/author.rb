@@ -8,17 +8,17 @@ def initialize(name)
   @name = name 
 end 
 
- def songs
+ def posts
     Song.all.select {|song| song.author==self}
   end  
 
 
-def add_song(song)
+def add_post(song)
     song.artist = self
 end  
   
-def add_song_by_name(name)
-    song = Song.new(name)
+def add_post_by_title(name)
+    post = Song.new(name)
     add_song(song)
 end  
   
