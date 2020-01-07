@@ -13,7 +13,7 @@ end
   end  
 
 
-def add_post(song)
+def add_post(post)
     song.artist = self
 end  
   
