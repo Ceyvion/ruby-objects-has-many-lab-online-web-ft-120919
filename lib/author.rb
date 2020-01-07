@@ -9,7 +9,7 @@ def initialize(name)
 end 
 
 def posts
-    song.all.select {|song| song.author==self}
+    Song.all.select {|song| song.author==self}
 end
 
 
