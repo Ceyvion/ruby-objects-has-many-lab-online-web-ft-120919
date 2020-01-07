@@ -14,7 +14,7 @@ end
 
 
 def songs
-    Song.all.select {|song| song.artist==self}
+    Song.all.select {|song| song.author==self}
 end  
   
 def add_song(song)
